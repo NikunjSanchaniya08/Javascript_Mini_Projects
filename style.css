@@ -1,0 +1,35 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color:antiquewhite;
+}
+.qns 
+{   
+   padding: 20px;   
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #A09CB0;
+}
+
+.tit
+{   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.answer
+{
+     padding: 20px;   
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:#9DD9D2
+}
+
+.anss
+{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
