@@ -1,0 +1,46 @@
+ body {
+            background: linear-gradient(to right, #232526, #414345);
+            /* dark background */
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', sans-serif;
+            color: #ffffff;
+            /* light text */
+        }
+
+        .weather-card {
+            background-color: #2c3e50;
+            /* dark card */
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .weather-icon {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px;
+            filter: drop-shadow(0 0 5px #ffffff);
+            /* make white icons glow slightly */
+        }
+
+        .city-input {
+            border-radius: 30px;
+        }
+
+        .form-control,
+        .form-control:focus {
+            background-color: #34495e;
+            border: none;
+            color: white;
+        }
+
+        .btn-primary {
+            background-color: #3498db;
+            border: none;
+        }
